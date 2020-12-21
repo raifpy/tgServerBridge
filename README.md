@@ -36,4 +36,14 @@ With screen: (ctrl + a + d on background )
 \<anyDoc\> upload for server
   
 
+<img src="https://github.com/raifpy/tgServerBridge/blob/main/resource/u.png">
+<img src="https://github.com/raifpy/tgServerBridge/blob/main/resource/u2.png">
+<img src="https://github.com/raifpy/tgServerBridge/blob/main/resource/u3.png">
 
+# Compile 
+
+     git clone https://github.com/raifpy/tgServerBridge
+     go get -u gopkg.in/tucnak/telebot.v2
+     go build -ldflags="-w -s" .
+     
+    
