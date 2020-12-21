@@ -43,6 +43,7 @@ With screen: (ctrl + a + d on background )
 # Compile 
 
      git clone https://github.com/raifpy/tgServerBridge
+     cd tgServerBridge
      go get -u gopkg.in/tucnak/telebot.v2
      go build -ldflags="-w -s" .
      
