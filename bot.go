@@ -124,9 +124,9 @@ func main() {
 			return
 		}
 		stdErrBuf := bufio.NewScanner(stderr)
-		stdErrBuf.Split(bufio.ScanWords)
+		//stdErrBuf.Split(bufio.ScanWords) // bad
 		stdOutBuf := bufio.NewScanner(stdout)
-		stdOutBuf.Split(bufio.ScanWords)
+		//stdOutBuf.Split(bufio.ScanWords) // bad
 
 		go func() {
 			for stdErrBuf.Scan() {
